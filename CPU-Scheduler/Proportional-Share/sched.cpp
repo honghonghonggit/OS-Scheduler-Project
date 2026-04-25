@@ -21,7 +21,7 @@ class Lottery : public Scheduler{
         Lottery(std::list<Job> jobs, double switch_overhead) : Scheduler(jobs, switch_overhead) {
             name = "Lottery";
             // 난수 생성기 초기화
-            uint seed = 10; // seed 값 수정 금지
+            uint seed = 10; 
             gen = std::mt19937(seed);
             total_tickets = 0;
             for (const auto& job : job_list_) {
