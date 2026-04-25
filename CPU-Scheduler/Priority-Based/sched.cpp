@@ -1,9 +1,3 @@
-/*
- *	DKU Operating System Lab (2026)
- *	    Lab1 (Scheduler Algorithm Simulator)
- *	    Student id :32225001 
- *	    Student name : 홍성제 
- */
 
 #include <string>
 #include <stdio.h>
