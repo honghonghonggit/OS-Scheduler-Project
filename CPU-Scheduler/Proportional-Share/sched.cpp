@@ -1,11 +1,3 @@
-/*
-*	DKU Operating System Lab (2026)
-*	    Lab1 (Scheduler Algorithm Simulator Bonus)
-*	    Student id : 32225001
-*	    Student name : 홍성제
-*	    Date :  2026.04.05.
-*	    Contents : Lottery, Stride
-*/
 
 #include <string>
 #include <stdio.h>
