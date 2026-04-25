@@ -9,9 +9,6 @@
 class FCFS : public Scheduler
 {
 private:
-    /*
-    * 구현 (멤버 변수/함수 추가 및 삭제 가능)
-    */
 
 public:
     FCFS(std::queue<Job> jobs, double switch_overhead) : Scheduler(jobs, switch_overhead)
@@ -167,10 +164,7 @@ public:
     RR(std::queue<Job> jobs, double switch_overhead, int time_slice) : Scheduler(jobs, switch_overhead)
     {
         name = "RR_" + std::to_string(time_slice);
-        /*
-         * 위 생성자 선언 및 이름 초기화 코드 수정하지 말것.
-         * 나머지는 자유롭게 수정 및 작성 가능 (아래 코드 수정 및 삭제 가능)
-         */
+
         time_slice_ = time_slice;
         left_slice_ = time_slice;
     }
@@ -271,10 +265,7 @@ public:
         else {
             name = "FeedBack_1";
         }
-        /*
-         * 위 생성자 선언 및 이름 초기화 코드 수정하지 말것.
-         * 나머지는 자유롭게 수정 및 작성 가능
-         */
+
          // 아래쪽 큐로 갈수록 타임 슬라이스를 2배씩 늘려준다
          if (name == "FeedBack_2i") {
              quantum[0] = 1;
