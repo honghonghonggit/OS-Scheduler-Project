@@ -17,7 +17,7 @@ Linux 환경에서 프로세스 스케줄링의 메커니즘을 분석하고 핵
 
 ### 2. Proportional-Share Scheduling
 자원의 공정한 배분을 위한 정밀 스케줄링 기법입니다.
-- **주요 파일**: `Proportional-Share/` 내 관련 소스 (직접 구현)
+- **주요 파일**: `Proportional-Share/sched.cc` 내 관련 소스 (직접 구현)
 - **지원 알고리즘**: Lottery, Stride Scheduling
 
 ---
